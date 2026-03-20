@@ -16,7 +16,7 @@ In digital systems, transferring data between asynchronous clock domains can lea
 
 ## System Architecture
 
-![Asynchronous FIFO Block Diagram](https://github.com/abhijith-d-1/Asynchronous-FIFO/blob/97c59e8167579a2f6098088489adfa84371dd7ee/Block%20diagram.gif)
+![Asynchronous FIFO Block Diagram](https://github.com/abhijith-d-1/Asynchronous-FIFO/blob/48451ea77ad9a03ba668f9e3743dc45e23309dba/Block%20diagram.jpg)
 
 ### The "Top Two Bits" Logic
 Detecting the `full` condition in an Async FIFO is non-trivial. Unlike binary pointers, Gray code is reflective. To determine if the Write Pointer has "lapped" the Read Pointer (Full), we apply the following logic:
